@@ -1,6 +1,6 @@
 description: >
   Send a tweet easily. Remember to escape double quotes in the tweet.
-  
+
 usage:
   version: 2.1
   orbs:
