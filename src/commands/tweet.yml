@@ -1,0 +1,21 @@
+description: >
+  This command posts a tweet from your account
+parameters:
+  tweet:
+    type: string
+    description: "Tweet Body"
+  key:
+    type: string
+    description: "Consumer Key"
+  secret:
+    type: string
+    description: "Consumer Secret"
+steps:
+  - run: gem install twurl
+  - run:
+      environment:
+        PARAM_TWEET: <<parameters.tweet>>
+        PARAM_KEY: <<parameters.key>>
+        PARAM_SECRET: <<parameters.secret>>
+      name: Send Tweet
+      command: <<include(scripts/tweet.sh)>>
