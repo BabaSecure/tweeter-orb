@@ -4,5 +4,5 @@ description: >
   CircleCI tweeter-orb posts tweets to Twitter; after every successful test.
 
 display:
-  home_url: "https://GitHub.com/Jollof-guy/tweeter-orb"
-  source_url: https://GitHub.com/Jollof-guy/tweeter-orb"
+  home_url: "https://github.com/Jollof-guy/tweeter-orb"
+  source_url: "https://github.com/Jollof-guy/tweeter-orb"
