@@ -1,0 +1,20 @@
+description: >
+  This job sends a tweet from your account.
+
+executor: default
+
+parameters:
+  tweet:
+    type: string
+    description: "Tweet Body"
+  key:
+    type: string
+    description: "Consumer Key"
+  secret:
+    type: string
+    description: "Consumer Secret"
+steps:
+  - tweet:
+      tweet: <<parameters.tweet>>
+      key: <<parameters.key>>
+      secret: <<parameters.secret>>

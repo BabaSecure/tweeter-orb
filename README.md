@@ -1,10 +1,8 @@
-# Orb Project Template
-<!---
-[![CircleCI Build Status](https://circleci.com/gh/<organization>/<project-name>.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/<organization>/<project-name>) [![CircleCI Orb Version](https://img.shields.io/badge/endpoint.svg?url=https://badges.circleci.io/orb/<namespace>/<orb-name>)](https://circleci.com/orbs/registry/orb/<namespace>/<orb-name>) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/<organization>/<project-name>/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
+# CircleCI Tweeter Orb
 
---->
+[![CircleCI Build Status](https://circleci.com/gh/Jollof-guy/tweeter-orb.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/Jollof-guy/tweeter-orb) [![CircleCI Orb Version](https://img.shields.io/badge/endpoint.svg?url=https://badges.circleci.io/orb/tweeter/tweeter)](https://circleci.com/orbs/registry/orb/tweeter/tweeter) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.GitHubusercontent.com/Jollof-guy/tweeter-orb/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
 
-A starter template for orb projects. Build, test, and publish orbs automatically on CircleCI with [Orb-Tools](https://circleci.com/orbs/registry/orb/circleci/orb-tools).
+This CircleCI Orb posts tweets to Twitter; after every successful test.
 
 Additional READMEs are available in each directory.
 
@@ -12,12 +10,17 @@ Additional READMEs are available in each directory.
 
 ## Resources
 
-[CircleCI Orb Registry Page](https://circleci.com/orbs/registry/orb/<namespace>/<project-name>) - The official registry page of this orb for all versions, executors, commands, and jobs described.
+[CircleCI Orb Registry Page](https://circleci.com/orbs/registry/orb/Jollof-guy/tweeter) - The official registry page of this orb for all versions, executors, commands, and jobs described.
 [CircleCI Orb Docs](https://circleci.com/docs/2.0/orb-intro/#section=configuration) - Docs for using and creating CircleCI Orbs.
 
-### How to Contribute
+### How To Contribute
 
-We welcome [issues](https://github.com/<organization>/<project-name>/issues) to and [pull requests](https://github.com/<organization>/<project-name>/pulls) against this repository!
+We welcome [issues](https://GitHub.com/Jollof-guy/tweeter-orb/issues) to and [pull requests](https://GitHub.com/Jollof-guy/tweeter-orb/pulls) against this repository!
+
+To publish a new production version:
+* Create a PR to the `Alpha` branch with your changes. This will act as a "staging" branch.
+* When ready to publish a new production version, create a PR from `Alpha` to `master`. The Git Subject should include `[semver:patch|minor|release|skip]` to indicate the type of release.
+* On merge, the release will be published to the orb registry automatically.
 
 ### How to Publish
 * Create and push a branch with your new features.

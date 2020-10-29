@@ -1,11 +1,10 @@
 description: >
-  This is a sample executor using Docker and Node.
+  Select the version of Ruby to use. Uses CircleCI's highly cached convenience
+  images built for CI.
 docker:
-  - image: 'cimg/node:<<parameters.tag>>'
+  - image: 'cimg/ruby:<<parameters.tag>>'
 parameters:
   tag:
-    default: lts
-    description: >
-      Pick a specific circleci/node image variant:
-      https://hub.docker.com/r/cimg/node/tags
+    default: '2.7'
+    description: The `circleci/ruby` Docker image version tag.
     type: string

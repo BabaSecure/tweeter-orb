@@ -16,4 +16,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Initial Release
 
 
-[1.0.0]: GITHUB TAG URL
+[1.0.0]: GitHub TAG URL

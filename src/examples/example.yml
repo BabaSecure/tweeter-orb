@@ -1,13 +1,14 @@
 description: >
-  Sample example description.
-# Provide a use-case based example for using this orb.
-# Everything in the `usage` section will be displayed in the orb registry.
-# Comments are not retained.
+  Send a tweet easily. Remember to escape double quotes in the tweet.
+
 usage:
   version: 2.1
   orbs:
-    <orb-name>: <namespace>/<orb-name>@1.2.3
+    tweeter-orb: tweeter/tweeter@dev:alpha
   workflows:
     use-my-orb:
       jobs:
-        - <orb-name>/<job-name>
+        - tweeter-orb/tweet:
+            tweet: "Hello World"
+            key: "API_KEY"
+            secret: "API_SECRET"
