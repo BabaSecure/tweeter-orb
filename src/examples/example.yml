@@ -4,7 +4,7 @@ description: >
 usage:
   version: 2.1
   orbs:
-    tweeter-orb: tweeter/tweeter@dev:alpha
+    tweeter-orb: jollof-guy/tweeter@dev:alpha
   workflows:
     use-my-orb:
       jobs:
