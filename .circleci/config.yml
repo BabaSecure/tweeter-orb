@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  # tweeter-orb: jollof-guy/tweeter@<<pipeline.parameters.dev-orb-version>>
+  # tweeter-orb: jollof-guy/tweeter-orb@<<pipeline.parameters.dev-orb-version>>
   orb-tools: circleci/orb-tools@10.0
 
 parameters:
