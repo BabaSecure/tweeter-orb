@@ -39,11 +39,7 @@ workflows:
             - orb-tools/lint
             - orb-tools/pack
       - orb-tools/publish-dev:
-<<<<<<< HEAD
-          orb-name: jollof-guy/tweeter
-=======
-          orb-name: Jollof-guy/tweeter-orb
->>>>>>> upstream/alpha
+          orb-name: jollof-guy/tweeter-orb
           context: orb-publishing
           requires: [hold-for-dev-publish]
       - orb-tools/trigger-integration-tests-workflow:
@@ -57,11 +53,7 @@ workflows:
     jobs:
       - integration-test
       - orb-tools/dev-promote-prod-from-commit-subject:
-<<<<<<< HEAD
-          orb-name: jollof-guy/tweeter
-=======
-          orb-name: Jollof-guy/tweeter-orb
->>>>>>> upstream/alpha
+          orb-name: jollof-guy/tweeter-orb
           context: orb-publishing
           add-pr-comment: false
           fail-if-semver-not-indicated: true
