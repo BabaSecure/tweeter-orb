@@ -20,6 +20,9 @@ jobs:
   integration-test:
     docker:
       - image: cimg/ruby:stable
+        auth:
+          username: $DOCKER_HUB_USERNAME
+          password: $DOCKER_HUB_PASSWORD
     steps:
       - checkout
       # - tweeter-orb/tweet:
