@@ -19,7 +19,7 @@ parameters:
 jobs:
   integration-test:
     docker:
-      - image: cimg/ruby:stable
+      - image: circleci/ruby:latest
         auth:
           username: $DOCKER_HUB_USERNAME
           password: $DOCKER_HUB_PASSWORD

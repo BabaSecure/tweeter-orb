@@ -1,6 +1,6 @@
 # CircleCI Tweeter Orb
 
-[![CircleCI Build Status](https://circleci.com/gh/jollof-guy/tweeter-orb.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/jollof-guy/tweeter-orb) [![CircleCI Orb Version](https://img.shields.io/badge/endpoint.svg?url=https://badges.circleci.io/orb/jollof-guy/tweeter-orb)](https://circleci.com/orbs/registry/orb/jollof-guy/tweeter-orb) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.GitHubusercontent.com/jollof-guy/tweeter-orb/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
+[![CircleCI Build Status](https://circleci.com/gh/Jollof-guy/tweeter-orb.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/jollof-guy/tweeter-orb) [![CircleCI Orb Version](https://img.shields.io/badge/endpoint.svg?url=https://badges.circleci.io/orb/jollof-guy/tweeter-orb)](https://circleci.com/orbs/registry/orb/jollof-guy/tweeter-orb) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.GitHubusercontent.com/Jollof-guy/tweeter-orb/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
 
 This CircleCI Orb posts tweets to Twitter; after every successful test.
 
